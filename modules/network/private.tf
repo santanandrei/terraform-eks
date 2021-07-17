@@ -30,3 +30,4 @@ resource "aws_route_table_association" "private_1c" {
     route_table_id = aws_route_table.nat.id
 }
 
+
